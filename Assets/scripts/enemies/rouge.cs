@@ -10,7 +10,7 @@ public class rouge : enemyLifeCycle
     private float timer;
 
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
         base.Start();
         player = GameObject.Find("vaisseaujoueur");
@@ -18,7 +18,7 @@ public class rouge : enemyLifeCycle
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         base.Update();
         //rotation spéciale pour le rouge

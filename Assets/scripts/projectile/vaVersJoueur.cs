@@ -8,13 +8,13 @@ public class vaVersJoueur : projectile
     public float speed;
     private Vector3 directionOfTravel;
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
         player = GameObject.Find("vaisseaujoueur");
         directionOfTravel = player.transform.position - transform.position;
     }
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
         directionOfTravel.Normalize();
         base.Update();

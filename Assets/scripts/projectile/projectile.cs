@@ -20,4 +20,14 @@ public class projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void OnCollisionEnter2D(Collision2D col)
+    {
+        enemyLifeCycle enemy = col.gameObject.GetComponent<enemyLifeCycle>();
+        boss bossObject = col.gameObject.GetComponent<boss>();
+        if ((!(enemy is enemyLifeCycle) && !(bossObject is boss)) || isFriendly)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }

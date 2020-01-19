@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7606846291369098860}
   m_Layer: 0
   m_Name: mechantR
-  m_TagString: Untagged
+  m_TagString: mechant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!60 &7606846291369098856
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -381,6 +381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2953157c9b45dd4f8dc2f5633d8e6d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 15
   tirPrefab: {fileID: 7425104205646921897, guid: 87c6b929781d8064ab8037ec5fa19a39,
     type: 3}
+  maxHp: 15

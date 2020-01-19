@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public float baseSpeed;
-    private float minY = (float)-4.40;
+    private float minY = (float)-4.660;
     private float maxY = (float)4.45;
     private float minX = (float)-7.22;
     private float maxX = (float)7.22;

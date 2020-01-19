@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5076750508765526245}
   m_Layer: 0
   m_Name: mechantN
-  m_TagString: Untagged
+  m_TagString: mechant
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!60 &5076750508765526244
 PolygonCollider2D:
   m_ObjectHideFlags: 0
